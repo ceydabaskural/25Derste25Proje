@@ -22,7 +22,7 @@ namespace _10_IliskiliTablolarileBirlestirme
         private void Form1_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("select UrunAd,(Ad+ ' '+Soyad)as 'Müşteri',Personel from TblHareket\r\ninner join TblUrunler on Urun=UrunId\r\ninner join TblMusteri on Id=Musteri\r\ninner join TblPersonel on TblPersonel.Id=TblHareket.Personel", connection);
+            SqlDataAdapter da = new SqlDataAdapter("select UrunAd,(Ad+ ' '+Soyad)as 'Müşteri',AdSoyad,TblHareket.Fiyat from TblHareket\r\ninner join TblUrunler on Urun=UrunId\r\ninner join TblMusteri on Id=Musteri\r\ninner join TblPersonel on TblPersonel.Id=TblHareket.Personel", connection);
             da.Fill(dt);
             dataGridView1.DataSource = dt;
         }
