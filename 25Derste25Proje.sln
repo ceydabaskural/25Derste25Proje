@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-BankaSimulasyonu", "14-B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-OgrenciDersKayitSistemi", "15-OgrenciDersKayitSistemi\15-OgrenciDersKayitSistemi.csproj", "{958D405C-94C1-4AEA-97FE-044BD226FDF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-TriggerKullanimi", "16-TriggerKullanimi\16-TriggerKullanimi.csproj", "{0BE27CB2-CB0B-4535-B658-4C616F160039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{958D405C-94C1-4AEA-97FE-044BD226FDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{958D405C-94C1-4AEA-97FE-044BD226FDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{958D405C-94C1-4AEA-97FE-044BD226FDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE27CB2-CB0B-4535-B658-4C616F160039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE27CB2-CB0B-4535-B658-4C616F160039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE27CB2-CB0B-4535-B658-4C616F160039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE27CB2-CB0B-4535-B658-4C616F160039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
