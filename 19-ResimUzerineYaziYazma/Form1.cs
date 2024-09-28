@@ -42,6 +42,7 @@ namespace _19_ResimUzerineYaziYazma
 
         private void button4_Click(object sender, EventArgs e)
         {
+            saveFileDialog1.Filter = "Resim|.jpg";
             saveFileDialog1.ShowDialog();
             bmp.Save(saveFileDialog1.FileName);
         }
